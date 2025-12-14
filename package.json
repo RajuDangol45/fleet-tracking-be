@@ -1,12 +1,11 @@
 {
   "name": "fleet-tracking-platform",
   "version": "0.0.0",
+  "private": true,
   "scripts": {
     "api": "json-server --watch db.json --port $PORT --host 0.0.0.0"
   },
-  "private": true,
-  "packageManager": "npm@10.9.2",
   "dependencies": {
-    "json-server": "^1.0.0-beta.3"
+    "json-server": "^0.17.4"
   }
 }
