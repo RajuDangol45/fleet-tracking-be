@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "api": "json-server --watch db.json --port $PORT --host 0.0.0.0"
-  }
+  },
   "private": true,
   "packageManager": "npm@10.9.2",
   "dependencies": {
